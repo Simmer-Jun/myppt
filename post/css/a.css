@@ -1,0 +1,50 @@
+
+article {
+  overflow: auto;
+}
+p {
+  text-align: left;
+  text-indent: 2em;
+}
+ul li {
+  text-align: left;
+}
+.slide h2 {
+  color: #fff;
+  text-shadow: none;
+}
+.slide {
+  color: #f0f0f0;
+  background-color: #333 !important;
+}
+table th, table td {
+  text-align: center !important;
+}
+
+.slide-wrapper {
+  max-width: 1000px !important;
+}
+.slide ul {
+  display: block;
+  margin-left: 3.2em;
+}
+h2,p {
+  font-size: 28px;
+}
+
+.title {
+  font-size: 24px;
+  color: #fff;
+  position: fixed;
+  padding: 10px;
+  left: 0;
+  padding-left: 30px;
+  bottom: 0;
+  right: 0;
+  height: 30px;
+  line-height: 30px;
+  text-align: left;
+  border-left: 2px solid #00375b;
+  background-color: #000;
+  z-index: 999;
+}
